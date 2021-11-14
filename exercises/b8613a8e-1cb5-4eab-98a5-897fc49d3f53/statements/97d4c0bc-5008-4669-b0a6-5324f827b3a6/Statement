@@ -1,0 +1,39 @@
+<h2>if</h2>
+
+<p>La estructura <strong>if</strong> es una estructura de selecci&oacute;n, en la que se eval&uacute;a una expresi&oacute;n l&oacute;gica y, en funci&oacute;n del resultado, se ejecuta una sentencia o un bloque de &eacute;stas.</p>
+
+<h3>Sintaxis:</h3>
+
+<blockquote>
+<p><code>if (expresi&oacute;n-l&oacute;gica) {<br />
+&nbsp;&nbsp;&nbsp; sentencia1;<br />
+&nbsp;&nbsp;&nbsp; sentencia2;<br />
+&nbsp;&nbsp;&nbsp; &hellip;;<br />
+&nbsp;&nbsp;&nbsp; sentenciaN;<br />
+}</code></p>
+</blockquote>
+
+<h3>Funcionamiento</h3>
+
+<p>Si la evaluaci&oacute;n de la expresi&oacute;n-l&oacute;gica ofrece un resultado verdadero, se ejecuta el bloque de sentencias asociado. Si el resultado de dicha evaluaci&oacute;n es falso, no se ejecutar&aacute; ninguna instrucci&oacute;n asociada a la estructura condicional.</p>
+
+<p><em><small>Aunque, en el caso de que se tenga que ejecutar una &uacute;nica sentencia, sea posible evitar la utilizaci&oacute;n de las llaves, se aconseja incluir siempre las llaves, aunque sea para encerrar una &uacute;nica sentencia.</small></em></p>
+
+<h3>Ejemplo:</h3>
+
+<p>En el siguiente ejemplo, se escribir&aacute; el texto &#39;APROBADO&#39; en el caso de que el valor asignado a la variable nota sea mayor o igual que 5.</p>
+
+<blockquote>
+<p><code>...<br />
+int nota = 7;<br />
+if(nota &gt;= 5) {<br />
+&nbsp;&nbsp;&nbsp; System.out.println(&quot;APROBADO&quot;);<br />
+}<br />
+...</code></p>
+</blockquote>
+
+<h3>Ejercicio:</h3>
+
+<p>Desarrolla una aplicaci&oacute;n que lea 2 notas del teclado y, por cada una de ellas, escribir&aacute; el texto &quot;APROBADO&quot; &uacute;nicamente en el caso de que la nota introducida sea mayor o igual que 5.</p>
+
+<p>Independientemente de si hemos escrito el texto &quot;APROBADO&quot; o no, tras cada una de las calificaciones debe aparecer una cadena como esta &quot;========&quot;, como se muestra en el OUTPUT.</p>
